@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100&display=swap');
+
+* {
+    font-family: 'Anek Latin';
+}
+
+form input {
+    outline: 0;
+    border-width: 0 0 2px;
+    margin-bottom: 20px;
+    padding-right: 150px;
+  }
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 50px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}  
