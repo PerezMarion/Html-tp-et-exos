@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+body {
+    background-color: rgb(187, 185, 185);
+    margin-right: 35px;
+    margin-left: 35px;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: size 130px;
+    text-align: center;
+}
+
+a[href="./world-wide-web.html"]{
+    text-decoration: underline;
+    color: rgb(253, 0, 0);
+    font-weight: bold;
+}
+
+h2{
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+
+th{
+    background-color: rgb(46, 45, 45);
+    color : rgb(255, 255, 255);
+    border:none;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(255, 255, 255);
+}
+
+td:nth-child(odd){
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: rgb(68, 68, 68);
+    cursor: pointer;
+}
+
+table{
+    border: none;
+    border-collapse: collapse;
+}
+
+th, tr, td {
+    border: none;
+}
+
+.photo-1{
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 15px;
+    background-color: rgb(46, 45, 45) ;
+    color: rgb(255, 255, 255);
+    padding: 20px 30px;
+    text-align: center;
+}
